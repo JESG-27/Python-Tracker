@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 
 # Load the images in grey scale
-img = cv2.imread('source/example_frame.jpg', 0)   
-template = cv2.imread('source/template_2.jpg', 0)
+img = cv2.imread('source/baseball.jpg', 0)   
+template = cv2.imread('source/baseball_template.jpg', 0)
 
 height, width = template.shape
 
