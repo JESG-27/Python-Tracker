@@ -43,9 +43,9 @@ while (vid.isOpened()):
         break
 
 vid.release()
-#cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 
-# fig = plt.figure()
-# for position in trajectory:
-#     plt.scatter(position[0], -position[1], color='red')
-# plt.show()
+fig = plt.figure()
+for position in trajectory:
+    plt.scatter(position[0], -position[1], color='red')
+plt.show()
