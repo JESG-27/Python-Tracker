@@ -59,8 +59,9 @@ min = np.argmin(positions[1])
 
 frame_dif = np.absolute(np.absolute(max)-np.absolute(min))
 time = (frame_dif*1)/frame_rate
-distance = float(input("Estimated drop height: "))
+distance = float(input("Estimated drop height (meters): "))
 speed = distance/time # speed = distance/time, this is an estimate distance
 print(f"Average speed: {speed:.2f} meters per second")
+print(f"Estimated time: {time:.2f} secs")
 
 plt.show()

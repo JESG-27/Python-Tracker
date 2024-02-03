@@ -99,6 +99,10 @@ while (cap.isOpened()):
         trajectory.append(center)
         for circle in trajectory:
             cv.circle(frame, circle, 5, (0, 0, 255), -1)
+        if (len(trajectory) > 3):
+            frame = cv.line(frame, center, trajectory[-4], (0, 0, 255), 3)
+            frame = cv.line(frame, trajectory[-4], trajectory[-3], (0, 0, 255), 3)
+            frame = cv.line(frame, trajectory[-3], trajectory[-2], (0, 0, 255), 3)
 
         output.write(frame)
 
