@@ -6,7 +6,7 @@ Programa desarrollado durante la estadía del servicio social en el <a href="htt
 
 # Manual de Usuario
 
-<a href="https://github.com/JESG-27/Python-Tracker/blob/main/Manual Python Tracker.pdf">Ver manual</a>
+<a href="https://github.com/JESG-27/Python-Tracker/blob/main/Manual%20-%20Python%20Tracker.pdf">Ver manual</a>
 
 # Ejemplo
 
